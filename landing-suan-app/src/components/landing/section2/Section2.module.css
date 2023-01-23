@@ -1,0 +1,54 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleContainer{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleContainer h3{
+    font-size: 5em;
+    font-weight: 700;
+    background: #207E2E;
+    background: linear-gradient(to top, #036667  0%, #207E2E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.titleContainer p{
+    text-align: center;
+    width: 80%;
+    padding-top: 1%;
+    font-size: 1.2em;
+}
+.cardsContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactContainer{
+    width: 100%;
+    margin-top: 3%;
+    border-top: 2px solid #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactContainer h2{
+    padding: 3% 0 3% 0;
+    font-size: 2.7em;
+    font-weight: 700;
+    color: #4E4E4E
+}
+.contactContainer button{
+    padding: .6% 2%;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    background: rgb(77,188,94);
+    background: linear-gradient(45deg, rgba(77,188,94,1) 0%, rgba(3,102,103,1) 100%);
+}

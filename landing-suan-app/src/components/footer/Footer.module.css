@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+    background-color: #000;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.firstInfo{
+    width: 20%;
+}
+.firstInfo img{
+    width: 40%;
+    padding-bottom: 4%;
+}
+.firstInfo p{
+    width: 70%;
+    font-size: .9em;
+}
+.secondInfo{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.quickLinks h5{
+    padding-bottom: 15%;
+}
+.quickLinks ul{
+    padding: 0;
+    list-style-type: none;
+}
+.quickLinks li{
+    padding: 5% 0;
+    cursor: pointer;
+}
+.reachUs h5{
+    padding-bottom: 12%;
+}
+.reachUs ul{
+    padding: 0;
+    list-style-type: none;
+}
+.reachUs li{
+    display: flex;
+    align-items:flex-start;
+    cursor: pointer;
+}
+.reachUs li p{
+    padding-left: 2%;
+}

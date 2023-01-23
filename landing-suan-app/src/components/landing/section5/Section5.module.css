@@ -1,0 +1,34 @@
+.container1{
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+.container2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.container2 h2{
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+.cardContainer{
+    display: flex;
+    padding-bottom: 4%;
+}
+.card{
+    width: 30%;
+}
+.card h6{
+    padding: 3% 0 1% 0;
+    font-size: 1.3em;
+}
+.card p{
+    font-size: .9em;
+    width: 60%;
+}
