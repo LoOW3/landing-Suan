@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.titleContainer h1{
+    font-size: 3.4em;
+    font-weight: 700;
+}
+.cardsContainer{
+    margin-top: 4%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.firstCardsContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.secondCardsContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infoEmployee{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 4%;
+}
+.infoEmployee div{
+    padding-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infoEmployee div h3{
+    font-size: 1.5em;
+    color: #207E2E;
+}
+.card1{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px 0px rgba(117,117,117,0.51);
+-webkit-box-shadow: 0px 5px 10px 0px rgba(117,117,117,0.51);
+-moz-box-shadow: 0px 5px 10px 0px rgba(117,117,117,0.51);
+}
+.card4{
+    width: 95%;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px 0px rgba(117,117,117,0.51);
+-webkit-box-shadow: 0px 5px 10px 0px rgba(117,117,117,0.51);
+-moz-box-shadow: 0px 5px 10px 0px rgba(117,117,117,0.51);
+}
+.text{
+    display: flex;
+    width: 90%;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+

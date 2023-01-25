@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactContainer{
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    border-top: 2px solid #DCDCDC;
+    border-bottom: 2px solid #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactContainer h2{
+    padding: 3% 0 3% 0;
+    font-size: 2.7em;
+    font-weight: 700;
+    color: #4E4E4E
+}
+.contactContainer button{
+    padding: .6% 2%;
+    margin-bottom: 4%;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    background: rgb(77,188,94);
+    background: linear-gradient(45deg, rgba(77,188,94,1) 0%, rgba(3,102,103,1) 100%);
+}

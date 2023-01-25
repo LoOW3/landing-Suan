@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleContainer{
+    display: flex;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.titleContainer h1{
+    font-size: 4.3em;
+    font-weight: 700;
+    background: #207E2E;
+    background: linear-gradient(to top, #036667  0%, #207E2E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cardsContainer{
+    padding-top: 4%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardsFirstRow{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.cardsSecondRow{
+    padding-top: 4%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}

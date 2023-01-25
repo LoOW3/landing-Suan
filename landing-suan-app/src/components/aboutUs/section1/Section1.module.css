@@ -1,0 +1,20 @@
+.container{
+    background-image: url('../../../assets/tnc_55933050.jpg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    color: white;
+    padding-left: 2%;
+}
+.container h3{
+    font-size: 6.4em;
+}
+.container h1{
+    font-size: 8em;
+    font-weight: 700;
+}
+.container p{
+    font-size: 1.8em;
+    width: 50%;
+}
