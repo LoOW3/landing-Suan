@@ -1,0 +1,21 @@
+.container{
+    background-image: url('../../../assets/0162_cesar_david_martinez.jpg');
+    color: white
+}
+.container h4{
+    padding-top: 10%;
+    color: #4DBC5E;
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+    font-size: 2.4em;
+}
+.cardsContainer{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 3%;
+}
